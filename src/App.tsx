@@ -23,7 +23,7 @@ function App() {
             DOGENIUM
           </h1>
           <p className="text-2xl mb-4 text-red-400">DGM</p>
-          <p className="text-xl mb-8 text-gray-300">"One small bark for Doge, one giant woof for crypto-kind!"</p>
+          <p className="text-xl mb-8 text-gray-300">"Where AI Meets Memes in the Crypto Galaxy!"</p>
           <div className="flex justify-center gap-6">
             <button className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105">
               Buy DGM
