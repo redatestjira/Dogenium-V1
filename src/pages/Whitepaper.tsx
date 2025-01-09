@@ -9,6 +9,7 @@ export function Whitepaper({ onBack }: WhitepaperProps) {
     <div className="min-h-screen bg-gradient-to-b from-red-900 via-purple-900 to-black text-white">
       <div className="container mx-auto px-4 py-16">
         <button
+          href="https://dogenium.netlify.app/"
           onClick={onBack}
           className="mb-8 flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors"
         >
@@ -77,10 +78,10 @@ export function Whitepaper({ onBack }: WhitepaperProps) {
           <div className="border-t border-red-500/20 mt-12 pt-8">
             <h2 className="text-2xl font-bold mb-4">Contact and Community</h2>
             <ul className="list-none space-y-2 text-gray-300">
-              <li>Website: <a href="https://dogenium.com" className="text-red-400 hover:text-red-300">DOGENIUM.com</a></li>
-              <li>Twitter: <a href="https://twitter.com/dogenium" className="text-red-400 hover:text-red-300">@DOGENIUM</a></li>
-              <li>Telegram: <a href="https://t.me/dogenium" className="text-red-400 hover:text-red-300">t.me/DOGENIUM</a></li>
-              <li>Discord: <a href="https://discord.gg/dogenium" className="text-red-400 hover:text-red-300">DOGENIUM Community</a></li>
+              <li>Website: <a href="https://dogenium.netlify.app/" className="text-red-400 hover:text-red-300">DOGENIUM</a></li>
+              <li>Twitter: <a href="#" className="text-red-400 hover:text-red-300">#</a></li>
+              <li>Telegram: <a href="#" className="text-red-400 hover:text-red-300">#</a></li>
+              <li>Discord: <a href="#" className="text-red-400 hover:text-red-300">#</a></li>
             </ul>
           </div>
         </article>
