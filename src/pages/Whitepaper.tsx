@@ -9,11 +9,11 @@ export function Whitepaper({ onBack }: WhitepaperProps) {
     <div className="min-h-screen bg-gradient-to-b from-red-900 via-purple-900 to-black text-white">
       <div className="container mx-auto px-4 py-16">
         <button
-          href="https://dogenium.netlify.app/"
+          
           onClick={onBack}
           className="mb-8 flex items-center gap-2 text-red-400 hover:text-red-300 transition-colors"
         >
-          ← Back to Home
+         <a href="https://dogenium.netlify.app/">← Back to Home</a>
         </button>
         <article className="prose prose-invert max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-center mb-8">DOGENIUM (DGM) Whitepaper</h1>
