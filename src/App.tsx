@@ -25,9 +25,14 @@ function App() {
           <p className="text-2xl mb-4 text-red-400">DGM</p>
           <p className="text-xl mb-8 text-gray-300">"Where AI Meets Memes in the Crypto Galaxy!"</p>
           <div className="flex justify-center gap-6">
-            <button className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105">
+            <a 
+              href="https://pump.fun/coin/9uyaVXy4a8Z994FK4YaN4dTekr8Gw25QJtPJ1JkXpump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
+            >
               Buy DGM
-            </button>
+            </a>
             <button 
               onClick={() => setShowWhitepaper(true)}
               className="border-2 border-red-500 hover:bg-red-500/10 text-red-400 font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
