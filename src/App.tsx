@@ -32,7 +32,7 @@ function App() {
           <div className="flex flex-col items-center gap-6">
             <div className="flex justify-center gap-6">
               <a 
-                href="https://pump.fun/coin/9uyaVXy4a8Z994FK4YaN4dTekr8Gw25QJtPJ1JkXpump"
+                href="https://pump.fun/coin/29yk2TKh3hMhWqonK26TfcqCaQ6zBvJZ6wis7ND1pump"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
