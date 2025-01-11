@@ -29,11 +29,11 @@ export default function Roadmap({ onBack }: RoadmapProps) {
               <ul className="space-y-3 text-gray-300 text-lg">
                 <li className="flex items-center">
                   <span className="text-green-400 mr-2">✓</span>
-                  Website Launch
+                  Website Creation: Launch https://dogenium.netlify.app/ as the central hub for DOGENIUM.
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-400 mr-2">✓</span>
-                  Token Deployment on Solana
+                  Coin Creation: Deploy the $DGM token on the Solana blockchain.
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-400 mr-2">✓</span>
@@ -43,32 +43,36 @@ export default function Roadmap({ onBack }: RoadmapProps) {
             </div>
 
             <div className="border-l-4 border-blue-400 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-400 mb-4">Phase 2: Growth</h3>
+              <h3 className="text-2xl font-semibold text-blue-400 mb-4">Phase 2: Build the Ecosystem</h3>
               <ul className="space-y-3 text-gray-300 text-lg">
-                <li>• Community Expansion</li>
-                <li>• Marketing Campaigns</li>
-                <li>• DEX Listings</li>
+                <li>• Wallet Integration: Enable users to connect their Solana wallet to the website.</li>
+                <li>• Game Launch: Create and add a simple space-themed game where players can use $DGM tokens to play and earn rewards.</li>
+                <li>• Leaderboard: Add a basic leaderboard to track scores and showcase monthly winners, $DGM rewards every month.</li>
                 <li>• Partnership Development</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-purple-400 pl-6">
-              <h3 className="text-2xl font-semibold text-purple-400 mb-4">Phase 3: Utility</h3>
+              <h3 className="text-2xl font-semibold text-purple-400 mb-4">Phase 3: Grow the Community</h3>
               <ul className="space-y-3 text-gray-300 text-lg">
-                <li>• Launch DGM Staking</li>
-                <li>• NFT Integration</li>
-                <li>• Governance Implementation</li>
-                <li>• Community DAO</li>
+                <li>• Community Engagement: Promote DOGENIUM on social media and host small giveaways and competitions to attract users.</li>
+                <li>• Token Listings: List $DGM on decentralized exchanges (DEXs) for trading.</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-red-400 pl-6">
-              <h3 className="text-2xl font-semibold text-red-400 mb-4">Phase 4: Expansion</h3>
+              <h3 className="text-2xl font-semibold text-red-400 mb-4">Phase 4: Expand Features</h3>
               <ul className="space-y-3 text-gray-300 text-lg">
-                <li>• Cross-chain Integration</li>
-                <li>• Mobile App Development</li>
-                <li>• Major Exchange Listings</li>
-                <li>• Global Marketing Campaign</li>
+                <li>• Staking: Allow $DGM holders to earn rewards by staking tokens.</li>
+                <li>• NFT Integration: Introduce space-themed NFTs for additional game perks.</li>
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-red-400 pl-6">
+              <h3 className="text-2xl font-semibold text-red-400 mb-4">Summary</h3>
+              <ul className="space-y-3 text-gray-300 text-lg">
+                <li>• Focus on the basics: a working token, wallet connection, and a simple game.</li>
+                <li>• Gradually add features like staking, NFTs, and token listings as the project grows.</li>
               </ul>
             </div>
           </div>
