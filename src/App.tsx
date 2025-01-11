@@ -1,16 +1,11 @@
 import React from 'react';
 import { Whitepaper } from './pages/Whitepaper';
-import Roadmap from './pages/Roadmap';
 
 function App() {
-  const [currentPage, setCurrentPage] = React.useState<'home' | 'whitepaper' | 'roadmap'>('home');
+  const [showWhitepaper, setShowWhitepaper] = React.useState(false);
 
-  if (currentPage === 'whitepaper') {
-    return <Whitepaper onBack={() => setCurrentPage('home')} />;
-  }
-
-  if (currentPage === 'roadmap') {
-    return <Roadmap onBack={() => setCurrentPage('home')} />;
+  if (showWhitepaper) {
+    return <Whitepaper />;
   }
 
   return (
@@ -29,34 +24,25 @@ function App() {
           </h1>
           <p className="text-2xl mb-4 text-red-400">$DGM</p>
           <p className="text-xl mb-8 text-gray-300">"Where AI Meets Memes in the Crypto Galaxy!"</p>
-          <div className="flex flex-col items-center gap-6">
-            <div className="flex justify-center gap-6">
-              <a 
-                href="https://pump.fun/coin/9uyaVXy4a8Z994FK4YaN4dTekr8Gw25QJtPJ1JkXpump"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
-              >
-                Buy DGM
-              </a>
-              <button 
-                onClick={() => setCurrentPage('whitepaper')}
-                className="border-2 border-red-500 hover:bg-red-500/10 text-red-400 font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
-              >
-                Read Whitepaper
-              </button>
-            </div>
-            <button 
-              onClick={() => setCurrentPage('roadmap')}
-              className="border-2 border-red-500 hover:bg-red-500/10 text-red-400 font-bold py-4 px-10 rounded-full transition transform hover:scale-105 w-fit"
+          <div className="flex justify-center gap-6">
+            <a 
+              href="https://pump.fun/coin/9uyaVXy4a8Z994FK4YaN4dTekr8Gw25QJtPJ1JkXpump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 text-white font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
             >
-              Roadmap
+              Buy DGM
+            </a>
+            <button 
+              onClick={() => setShowWhitepaper(true)}
+              className="border-2 border-red-500 hover:bg-red-500/10 text-red-400 font-bold py-4 px-10 rounded-full transition transform hover:scale-105"
+            >
+              Read Whitepaper
             </button>
           </div>
         </div>
       </header>
 
-      {/* Rest of the components remain the same */}
       {/* Introduction Section */}
       <section className="container mx-auto px-4 py-12 text-center">
         <h2 className="text-4xl font-bold mb-6">The Meme Coin of the Future! 🚀</h2>
