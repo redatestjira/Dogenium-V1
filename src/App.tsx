@@ -1,6 +1,5 @@
 import React from 'react';
 import { Whitepaper } from './pages/Whitepaper';
-import Roadmap from './pages/Roadmap';
 
 function App() {
   const [showWhitepaper, setShowWhitepaper] = React.useState(false);
