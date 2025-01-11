@@ -78,9 +78,9 @@ export function Whitepaper({ onBack }: WhitepaperProps) {
             <h2 className="text-2xl font-bold mb-4">Contact and Community</h2>
             <ul className="list-none space-y-2 text-gray-300">
               <li>Website: <a href="https://dogenium.netlify.app/" className="text-red-400 hover:text-red-300">DOGENIUM</a></li>
-              <li>Twitter: <a href="#" className="text-red-400 hover:text-red-300">#</a></li>
-              <li>Telegram: <a href="https://t.me/dogeniumdgm" className="text-red-400 hover:text-red-300">Telegram</a></li>
-              <li>Discord: <a href="#" className="text-red-400 hover:text-red-300">#</a></li>
+              <li>Telegram: <a href="https://t.me/dogeniumdgm" className="text-red-400 hover:text-red-300">DOGENIUM $DGM</a></li>
+              <li>Twitter: <a href="#" className="text-red-400 hover:text-red-300">upcoming...</a></li>
+              <li>Discord: <a href="#" className="text-red-400 hover:text-red-300">upcoming...</a></li>
             </ul>
           </div>
         </article>
