@@ -22,7 +22,7 @@ function App() {
           <h1 className="text-7xl font-bold mb-4 bg-gradient-to-r from-red-500 via-yellow-400 to-orange-500 text-transparent bg-clip-text">
             DOGENIUM
           </h1>
-          <p className="text-2xl mb-4 text-red-400">DGM</p>
+          <p className="text-2xl mb-4 text-red-400">$DGM</p>
           <p className="text-xl mb-8 text-gray-300">"Where AI Meets Memes in the Crypto Galaxy!"</p>
           <div className="flex justify-center gap-6">
             <a 
